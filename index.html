@@ -1,49 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kisan Mitra - Farmer's Companion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
+  <header class="hero">
     <h1>Kisan Mitra</h1>
-    <nav>
-      <a href="#prices">Crop Prices</a>
-      <a href="#seeds">Seed Varieties</a>
-      <a href="#diseases">Disease Guide</a>
-      <a href="#lifecycle">Crop Lifecycle</a>
-    </nav>
+    <p class="tagline">Prices, seeds, disease guidance and crop timelines — for the Indian farmer, in one place.</p>
   </header>
 
-  <main>
-    <section id="prices">
-      <h2>Today's Crop Prices</h2>
-      <p>Prices will appear here once we connect to the backend.</p>
-    </section>
+  <main class="card-grid">
+    <a href="prices.html" class="feature-card" style="background-image: linear-gradient(180deg, rgba(31,69,41,0.15), rgba(20,26,17,0.85)), url('images/prices-bg.jpg');">
+      <span class="card-title">Crop Prices</span>
+      <span class="card-desc">Today's market rates, updated daily</span>
+    </a>
 
-    <section id="seeds">
-      <h2>Seed Varieties</h2>
-      <p>Browse seed types and their features here.</p>
-    </section>
+    <a href="seeds.html" class="feature-card" style="background-image: linear-gradient(180deg, rgba(31,69,41,0.15), rgba(20,26,17,0.85)), url('images/seeds-bg.jpg');">
+      <span class="card-title">Seed Varieties</span>
+      <span class="card-desc">Compare varieties and their features</span>
+    </a>
 
-    <section id="diseases">
-      <h2>Disease Identification</h2>
-      <p>Look up crop diseases and their cures here.</p>
-    </section>
+    <a href="diseases.html" class="feature-card" style="background-image: linear-gradient(180deg, rgba(31,69,41,0.15), rgba(20,26,17,0.85)), url('images/diseases-bg.jpg');">
+      <span class="card-title">Disease Guide</span>
+      <span class="card-desc">Identify symptoms, find the cure</span>
+    </a>
 
-    <section id="lifecycle">
-      <h2>Crop Lifecycle</h2>
-      <p>Sowing to harvesting timeline will appear here.</p>
-    </section>
+    <a href="lifecycle.html" class="feature-card" style="background-image: linear-gradient(180deg, rgba(31,69,41,0.15), rgba(20,26,17,0.85)), url('images/lifecycle-bg.jpg');">
+      <span class="card-title">Crop Lifecycle</span>
+      <span class="card-desc">Sowing to harvest, step by step</span>
+    </a>
   </main>
 
   <footer>
     <p>&copy; 2026 Kisan Mitra</p>
   </footer>
-<script src="script.js"></script>
-</body>
-</html>
+
 </body>
 </html>
